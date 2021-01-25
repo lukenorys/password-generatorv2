@@ -20,7 +20,7 @@ while(!(upperCase || lowerCase || numbChara || specChara)) {
   specChara = window.confirm("How about some special characters to top it off?");
 };
 
-function generatedPassword() {
+function generatePassword() {
   var createdPw = "";
   var allowed = [];
 
